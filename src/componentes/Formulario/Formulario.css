@@ -1,0 +1,59 @@
+section.formulario {
+    padding: 80px 4%;
+}
+
+.titulo {
+    font-size: 45px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.titulo span {
+    color: #00ff08;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #292929ec;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 180px;
+}
+
+form .btnEnviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btnEnviar input[type=submit] {
+    width: 120px;
+    background-color: #00ff08;
+    color: #000;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+form .btnEnviar input[type=submit]:hover {
+    box-shadow: 0px 0px 10px #0cd612;
+    transform: scale(1.10);
+}
