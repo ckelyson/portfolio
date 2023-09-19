@@ -10,11 +10,11 @@ function Introducao () {
                         <div className={styles.txt_topo_site}>
                             <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
                             <p>Criatividade e inovação andam lado a lado. Com uma combinação única de disign impactante,
-                                funcionalidade intuitiva e otimização para resultados, 
-                                estou pronto para criar a presença online dos seus sonhos.
+                                funcionalidade intuitiva e otimização para resultados.
+                                Estou pronto para criar a presença online dos seus sonhos.
                             </p>
                             <div className={styles.btnContato}>
-                                <a href='#'>
+                                <a href='#contato'>
                                     <button>Entre em contato</button>
                                 </a>
                             </div>

@@ -11,7 +11,7 @@ function MinhasEspecialidades () {
                         <i class="bi bi-filetype-html"></i>
                         <h3>HTML</h3>
                         <p>Em um mundo cada vez mais digital, a linguagem de marcação HTML
-                           se destaca como o alicerce essencial que sustenta a internet tal como a conhecemos.
+                           se destaca como o alicerce essencial que sustenta a internet, tal como a conhecemos.
                            Por trás de cada site, aplicativo da web ou e-mail que você acessa, está um código HTML
                            meticulosamente desenvolvido por especialistas.
                         </p>

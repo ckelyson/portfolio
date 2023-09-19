@@ -14,46 +14,43 @@ section.formulario {
     color: #00ff08;
 }
 
-form {
-    max-width: 500px;
-    margin: 0 auto;
+.linha {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 40px;
+    justify-content: space-around;
+    margin: 70px;
 }
 
-form input, form textarea {
-    width: 100%;
-    background-color: #292929ec;
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: #ffffff;
-    font-size: 15px;
+.linha p i{
+    color: #00ff08;
+    font-size: 40px;
 }
 
-form textarea {
-    resize: none;
-    max-height: 180px;
+.linha p a {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
 }
 
-form .btnEnviar {
-    margin-top: 20px;
-    text-align: center;
-}
-
-form .btnEnviar input[type=submit] {
-    width: 120px;
-    background-color: #00ff08;
-    color: #000;
-    font-weight: 900;
-    cursor: pointer;
-}
-
-form .btnEnviar input[type=submit]:hover {
+.linha p:hover{
     box-shadow: 0px 0px 10px #0cd612;
     transform: scale(1.10);
+}
+
+@media screen and (max-width: 1020px) {
+    .linha {
+        display: flex;
+        flex-direction: column;
+        margin: 70px 0;
+    }
+    
+    .linha p i{
+        color: #00ff08;
+        font-size: 40px;
+    }
+    
+    .linha p a {
+        color: #fff;
+        font-size: 20px;
+        margin: 5px;
+    } 
 }

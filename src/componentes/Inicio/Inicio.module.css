@@ -10,105 +10,28 @@ body {
     height: 100vh;
 }
 
+.interface {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 .logo {
     width: 170px;
 }
 
-.interface {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-/*ESTILO DO CABEÇALHO*/
-
-header {
-    padding: 40px 4%;
-}
-
-header > .interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-header a {
-    color: #5f5f5f;
-    text-decoration: none;
-    display: inline-block;
-    transition: .4s;
-}
-
-header a:hover {
-    color: #ffffff;
-    transform: scale(1.25);
-}
-
-header nav ul {
-    list-style-type: none;
-
-}
-
-header nav ul li{
-    display: inline-block;
-    padding: 0 40px;
-}
-
-header .mobileIcon button {
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #00ff08;
-    border: 0;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px #0cd612;
-}
-
-header .btnContato button:hover{
-    box-shadow: 0px 0px 10px #0cd612;
-}
-
-.menuDesktop {
-    display: flex;
-}
-
-.mobileIcon{
-    display: none;
-}
-
-.menuMobile{
-    display: none;
+header {   
+    background-color: #000000;
+    width: 100%;
+    padding: 20px;
 }
 
 
-@media screen and (max-width: 1020px) {
-    .interface {
-        display: flex;
-        justify-content: space-between;
-    }
-    .menuDaListaDesktop{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-    .menuDaListaDesktop a {
-        color: #fff;
-    }
-    header .btnContato button{
-        display: none;
-    }
+
+@media screen and (max-width: 1030px) {
+
     .logo {
-        width: 200px;
+        width: 100px;
     }
-
-    .menuMobile ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    
 }
-

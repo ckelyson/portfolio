@@ -39,6 +39,10 @@ footer .linhaFooter p a {
     color: #fff;
 }
 
+.linhaFooter p {
+    color: #fff;
+}
+
 @media screen and (max-width: 1020px){
     .flex {
         flex-direction: column;
