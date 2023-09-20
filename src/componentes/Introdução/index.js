@@ -1,5 +1,5 @@
 import styles from './Introducao.module.css'
-import foto from '../../assets/fotoSobre.png'
+import foto from '../../assets/foto.png'
 
 function Introducao () {
     return (
