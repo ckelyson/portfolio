@@ -1,5 +1,5 @@
 .fotoPessoa {
-    width:300px;
+    width: 300px;
     border-radius: 40% 10% 40%;
     box-shadow: 0px 0px 20px 1px #00ff08;
 }
@@ -75,9 +75,12 @@ section.topoDoSite .flex {
         padding: 20px 8%;
     }
     .topoDoSite .img_topo_site img{
-        width: 250px;
+        width: 240px;
     }
     section.topoDoSite .flex{
         gap: 40px;
+    }
+    .img_topo_site{
+        margin: 80px;
     }
 }

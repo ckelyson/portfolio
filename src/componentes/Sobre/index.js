@@ -29,9 +29,9 @@ function Sobre () {
                             tecnológicos de maneira abrangente.
                         </p>
                             <div className={styles.btnSocial}>
-                                <a href='#'><button><i class="bi bi-instagram"></i></button></a>
-                                <a href='#'><button><i class="bi bi-tiktok"></i></button></a>
-                                <a href='#'><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href='https://instagram.com/mouraa_ckelyson?igshid=MzRlODBiNWFlZA=='><button><i class="bi bi-instagram"></i></button></a>
+                                <a href='http://tiktok.com/@dev_ckelyson'><button><i class="bi bi-tiktok"></i></button></a>
+                                <a href='https://www.linkedin.com/in/ckelyson-moura-frontend'><button><i class="bi bi-linkedin"></i></button></a>
                             </div>
                     </div>
                 </div>
