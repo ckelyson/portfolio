@@ -72,13 +72,14 @@ section.topoDoSite .flex {
     section.topoDoSite {
         padding: 20px 8%;
     }
-    .topoDoSite .img_topo_site img{
-        width: 260px;
-    }
+    
     section.topoDoSite .flex{
         gap: 40px;
     }
     .img_topo_site{
         margin: 20px;
+    }
+    .img_topo_site img{
+        width: 330px;
     }
 }
