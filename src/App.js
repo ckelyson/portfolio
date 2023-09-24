@@ -6,6 +6,7 @@ import MinhasEspecialidades from './componentes/MinhasEspecialidades';
 import Projetos from './componentes/Projetos';
 import Rodape from './componentes/Rodape';
 import Sobre from './componentes/Sobre';
+import ImageCarousel from './componentes/certificados';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Sobre/>
       <Projetos/>
       <Formulario/>
+      <ImageCarousel/>
       <Rodape/>
     </>
   );
