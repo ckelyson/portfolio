@@ -14,8 +14,8 @@ footer .flex {
 
 footer .linhaFooter{
     padding: 20px 0;
-    border-top: 2px solid #00ff08;
-    border-bottom: 2px solid #00ff08;
+    border-top: 2px solid #0c24ff;
+    border-bottom: 2px solid #0c24ff;
 }
 
 footer .btnSocial button {
@@ -24,23 +24,23 @@ footer .btnSocial button {
     border-radius: 50%;
     border: none;
     font-size: 23px;
-    background-color: #00ff08;
+    background-color: #0c24ff;
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
 }
 
 footer .linhaFooter p i{
-    color: #00ff08;
+    color: #ffffff;
     font-size: 25px;
 }
 
 footer .linhaFooter p a {
-    color: #fff;
+    color: #ffffff;
 }
 
 .linhaFooter p {
-    color: #fff;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1020px){

@@ -11,7 +11,7 @@
   font-size: 45px;
   line-height: 40px;
   margin-bottom: 20px;
-  color: #00ff08;
+  color: #0c24ff;
   text-align: center;
   margin: 20px;
 }
@@ -26,7 +26,7 @@
 }
 
 .image-carousel h2 span{
-  color: #00ff08;
+  color: #ffffff;
 }
 
 .image-carousel p{
@@ -63,14 +63,14 @@
 .left-arrow {
   left: 90px;
   font-size: 40px;
-  background-color: #00ff08;
+  background-color: #0c24ff3a;
   border-radius: 30%;
 }
 
 .right-arrow {
   right: 90px;
   font-size: 40px;
-  background-color: #00ff08;
+  background-color: #0c24ff3a;
   border-radius: 30%;
 }
 
@@ -98,7 +98,7 @@
   .image-carousel h1{
     font-size: 48px;
     line-height: 40px;
-    color: #00ff08;
+    color: #0c24ff;
     text-align: center;
     margin: 20px;
   }
@@ -124,14 +124,14 @@
   .left-arrow {
     left: 0px;
     font-size: 40px;
-    background-color: #ffffff31;
+    background-color: #0c24ff1a;
     border-radius: 40%;
   }
   
   .right-arrow {
     right: 1px;
     font-size: 40px;
-    background-color: #ffffff31;
+    background-color: #0c24ff1a;
     border-radius: 40%;
   }
   .arrow:hover {

@@ -24,7 +24,7 @@ section.sobre {
 }
 
 .sobre .txtSobre h2 span {
-    color: #00ff08;
+    color: #0c24ff;
     display: block;
 }
 
@@ -39,14 +39,15 @@ section.sobre {
     border-radius: 50%;
     border: none;
     font-size: 23px;
-    background-color: #00ff08;
+    background-color: #0c24ff;
+    color: #fff;
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
 }
 
 .btnSocial button:hover{
-    box-shadow: 0px 0px 10px #0cd612;
+    box-shadow: 0px 0px 10px #0c24ff;
     transform: scale(1.10);
 }
 

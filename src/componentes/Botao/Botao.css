@@ -7,7 +7,7 @@
   
   .menu-button {
     background-color: #333;
-    color: rgb(255, 255, 255);
+    color: rgb(68, 68, 68);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -26,10 +26,10 @@
     margin: 0 40px;
     cursor: pointer;
     padding: 5px;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #000000;
     text-align: center;
     border: none;
-    color: #5f5f5f;
+    color: #ffffff49;
     font-weight: 800;
     text-decoration: none;
   }
@@ -52,12 +52,12 @@
     }
   
     .menu-button {
-      margin: 10px 0;
+      margin: 10px -21px;
       display: flex;
       justify-content: center;
       width: 30%;
-      background: #00ff08;
-      box-shadow: 0px 0px 4px #00ff08;
+      background: #e9f5e9;
+      box-shadow: 0px 0px 4px #3200e9;
       border-radius: 10%;
     }
   
@@ -69,6 +69,7 @@
     .mobile-navigation.open .menu-list {
       display: flex;
       flex-direction: column;
+      align-items: center;
       position: absolute;
       margin: 50px ;
     }

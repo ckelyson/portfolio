@@ -1,5 +1,5 @@
 import styles from './Inicio.module.css'
-import logo from '../../assets/logo2.0.png'
+import logo from '../../assets/logo2.1.png'
 import MobileNavigation from '../Botao'
 
 

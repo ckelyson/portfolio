@@ -1,5 +1,5 @@
 import styles from './Sobre.module.css'
-import imgSobre from '../../assets/fotoSobre.png'
+import imgSobre from '../../assets/ck2.png'
 
 function Sobre () {
     return (

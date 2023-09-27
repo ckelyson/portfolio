@@ -12,7 +12,7 @@ section.formulario {
 }
 
 .titulo span {
-    color: #00ff08;
+    color: #0c24ff;
 }
 
 .linha {
@@ -22,18 +22,18 @@ section.formulario {
 }
 
 .linha p i{
-    color: #00ff08;
+    color: #ffffff;
     font-size: 40px;
 }
 
 .linha p a {
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
     margin: 5px;
 }
 
 .linha p:hover{
-    box-shadow: 0px 0px 10px #0cd612;
+    box-shadow: 0px 0px 10px #000000;
     transform: scale(1.10);
 }
 
@@ -45,12 +45,12 @@ section.formulario {
     }
     
     .linha p i{
-        color: #00ff08;
+        color: #ffffff;
         font-size: 40px;
     }
     
     .linha p a {
-        color: #fff;
+        color: #ffffff;
         font-size: 20px;
         margin: 5px;
     } 
