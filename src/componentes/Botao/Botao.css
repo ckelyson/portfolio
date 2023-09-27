@@ -52,12 +52,13 @@
     }
   
     .menu-button {
-      margin: 10px -21px;
+      font-size: 20px;
+      margin: 10px -26px;
       display: flex;
       justify-content: center;
       width: 30%;
-      background: #e9f5e9;
-      box-shadow: 0px 0px 4px #3200e9;
+      background-color: #000;
+      color: blue;
       border-radius: 10%;
     }
   
