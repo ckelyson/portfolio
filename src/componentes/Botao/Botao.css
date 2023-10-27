@@ -1,77 +1,84 @@
-.mobile-navigation {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    margin: 0 40px;
-  }
-  
-  .menu-button {
-    background-color: #333;
-    color: rgb(68, 68, 68);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    display: none;
-  }
-  
-  .menu-list {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 30px;
-    background-color: #000000;
-  }
-  
-  .menu-list a {
-    margin: 0 40px;
-    cursor: pointer;
-    padding: 5px;
-    border-bottom: 1px solid #000000;
-    text-align: center;
-    border: none;
-    color: #ffffff49;
-    font-weight: 800;
-    text-decoration: none;
+/* Estilos para o ícone de hambúrguer */
+.hamburger {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px; /* Mude para "right" para alinhar à direita */
+  z-index: 1001;
+}
+
+.bar {
+  width: 30px;
+  height: 5px;
+  background-color: #0c00ad;
+  margin: 5px 2rem;
+  transition: 0.4s;
+}
+
+/* Estilos para o menu quando está aberto */
+.navigation-menu {
+  width: 250px;
+  background-color: #000000c2;
+  position:absolute;
+  top: 0;
+  right: -250px; /* Mude para "right" para ocultar no lado direito */
+  height: 100%;
+  transition: 0.4s;
+  z-index: 1000;
+  overflow-y: scroll; /* Adicione uma barra de rolagem quando o menu é longo */
+}
+
+/* Estilos para a lista de itens de menu */
+.menu-items {
+  list-style: none;
+  padding: 40px 20px;
+}
+
+.menu-items li {
+  margin: 30px -1rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-items i {
+  font-size: 25px;
+  margin: 0 5px;
+  color: #431ee7;
+  box-shadow: 0px 0px 0.9px;
+}
+
+/* Estilos gerais para o componente */
+.navigation-menu.open {
+  right: 0; /* Mude para "right" para abrir no lado direito */
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    top: 18px;
+    right: 30px;
   }
 
-  .menu-list a:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 15px #555555;
+  .bar {
+    width: 30px;
+    height: 3px;
+    margin: 7px 0;
+    box-shadow: 0px 0px 1px #431ee7;
+  }
+
+  .navigation-menu {
+    width: 55%;
+    right: -80%; /* Mude para "right" para ocultar no lado direito */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .menu-items {
+    list-style: none;
+    padding: 40px 10px;
+  }
 }
-  
-  .menu-list a:last-child {
-    border-bottom: none;
-  }
-  
-  /* Estilos para telas menores */
-  @media screen and (max-width: 1020px) {
-    .mobile-navigation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-  
-    .menu-button {
-      font-size: 40px;
-      margin: 0px -35px;
-      display: flex;
-      justify-content: center;
-      width: 40%;
-      background-color: #000;
-      color: blue;
-      border-radius: 10%;
-    }
-  
-    .menu-list {
-      display: none;
-      width: 100%;
-    }
-  
-    .mobile-navigation.open .menu-list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      margin: 50px ;
-    }
-  }

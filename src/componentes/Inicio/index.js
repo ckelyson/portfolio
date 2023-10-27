@@ -1,6 +1,7 @@
 import styles from './Inicio.module.css'
 import logo from '../../assets/logo2.1.png'
-import MobileNavigation from '../Botao'
+
+import NavigationMenu from '../Botao'
 
 
 function Inicio () {
@@ -11,7 +12,7 @@ function Inicio () {
                     <img src={logo} className={styles.logo} alt='logo da página portfolio'/>                   
                </div> 
 
-                <MobileNavigation/>
+                <NavigationMenu/>
              
             </div>
         </header>
