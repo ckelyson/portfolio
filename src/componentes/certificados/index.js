@@ -56,7 +56,7 @@ function ImageCarousel() {
   };
 
   return (
-    <div className="image-carousel">
+    <div className="image-carousel" id='formacoes'>
         <h1>FORMAÇÕES</h1>
       <div className="carousel-container">
         <button className="arrow left-arrow" onClick={goToPreviousImage}>
