@@ -17,15 +17,16 @@
 
 /* Estilos para o menu quando está aberto */
 .navigation-menu {
-  width: 250px;
+  width: 0;
+  opacity: 0;
   background-color: #000000c2;
-  position:absolute;
+  position: absolute;
   top: 0;
-  right: -250px; /* Mude para "right" para ocultar no lado direito */
+  right: 0; /* Adjust for your preferred side (left or right) */
   height: 100%;
   transition: 0.4s;
   z-index: 1000;
-  overflow-y: scroll; /* Adicione uma barra de rolagem quando o menu é longo */
+  overflow-y: scroll; /* Add a scrollbar when the menu is long */
 }
 
 /* Estilos para a lista de itens de menu */
@@ -55,9 +56,11 @@
 
 /* Estilos gerais para o componente */
 .navigation-menu.open {
-  right: 0; /* Mude para "right" para abrir no lado direito */
+  width: 250px; /* Adjust the width as needed */
+  opacity: 1;
+  transition: 0.4s;
+  z-index: 1000;
 }
-
 @media (max-width: 768px) {
   .hamburger {
     top: 18px;
