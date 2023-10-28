@@ -75,13 +75,26 @@
   }
 
   .navigation-menu {
-    width: 55%;
-    right: -80%; /* Mude para "right" para ocultar no lado direito */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 0;
+    opacity: 0;
+    background-color: #000000c2;
+    position: absolute;
+    top: 0;
+    right: 0; /* Adjust for your preferred side (left or right) */
+    height: 100%;
+    transition: 0.4s;
+    z-index: 1000;
+    overflow-y: scroll; /* Add a scrollbar when the menu is long */
   }
-
   .menu-items {
     list-style: none;
     padding: 40px 10px;
+  }
+
+  .navigation-menu.open {
+    width: 220px; /* Adjust the width as needed */
+    opacity: 1;
+    transition: 0.4s;
+    z-index: 1000;
   }
 }
