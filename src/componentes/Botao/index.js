@@ -45,13 +45,9 @@ const NavigationMenu = () => {
               <i className="bi bi-person-vcard"></i> Meus Projetos
             </a>
           </li>
+         
           <li>
-            <a href="#contato">
-              <i className="bi bi-telephone"></i> Fale Comigo
-            </a>
-          </li>
-          <li>
-            <a href="#formacoes">
+            <a href="#certificados">
               <i className="bi bi-journal-medical"></i> Cursos e Certificações
             </a>
           </li>

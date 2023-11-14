@@ -8,10 +8,11 @@ function Introducao () {
                 <div className={styles.interface}>
                     <div className={styles.flex}>
                         <div className={styles.txt_topo_site}>
-                            <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
-                            <p>Criatividade e inovação andam lado a lado. Com uma combinação única de disign impactante,
-                                funcionalidade intuitiva e otimização para resultados.
-                                Estou pronto para criar a presença online dos seus sonhos.
+                            <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL.<span></span></h1>
+                            <p>Técnico em Desenvolvimento de Sistemas pela Instituição de ensino estadual ETE Edson Mororó Moura,
+                                Especialização em Front End e Banco de Dados pelas Instituições Alura+Oracle do programa Next Education,
+                                cursando Ensino Superior em Engenharia de Software pelo Centro Universitário Leonardo da Vinci
+                               (UNIASSELVI).
                             </p>
                             <div className={styles.btnContato}>
                                 <a href='#contato'>

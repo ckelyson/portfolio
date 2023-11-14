@@ -1,141 +1,26 @@
-.image-carousel {
-  text-align: center;
-  margin: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.background {
+  background: #fff;
   padding: 40px 4%;
 }
 
-.image-carousel h1{
-  font-size: 45px;
-  line-height: 40px;
-  margin-bottom: 20px;
-  color: #0c24ff;
+.desenvolvimento {
+  margin-top: 20px;
+}
+
+.desenvolvimento .cursoNegrito {
+  font-weight: 600;
+}
+
+
+.tituloCertificacoes{
   text-align: center;
-  margin: 20px;
+  font-weight: 900;
+  margin-bottom: 40px;
 }
 
-.image-carousel h2{
-  font-size: 45px;
-  line-height: 40px;
-  margin-bottom: 20px;
-  color: #ffffff;
-  text-align: center;
-  margin: 20px;
-}
-
-.image-carousel h2 span{
-  color: #ffffff;
-}
-
-.image-carousel p{
-  color: #fff;
-}
-
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  max-width: 900px;
-  max-height: 500px; /* Altura desejada para as imagens */
-  object-fit: contain;
-  box-shadow: 0px 0px 15px #fff;
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 5px 10px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.left-arrow {
-  left: 90px;
-  font-size: 40px;
-  background-color: #0c24ff3a;
-  border-radius: 30%;
-}
-
-.right-arrow {
-  right: 90px;
-  font-size: 40px;
-  background-color: #0c24ff3a;
-  border-radius: 30%;
-}
-
-.arrow:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-}
-
-@media screen and (max-width: 1020px) {
-  .image-carousel {
-    text-align: center;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }  
-
-  .image {
-    max-width: 350px;
-    max-height: 500px; /* Altura desejada para as imagens */
-    object-fit: contain;
-    box-shadow: 0px 0px 15px #fff;
-    margin: 10px;
-  }
-  .image-carousel h1{
-    font-size: 48px;
-    line-height: 40px;
-    color: #0c24ff;
-    text-align: center;
-    margin: 20px;
-  }
-  .arrow {
-    position: absolute;
-    top: 65%;
-    transform: translateY(-100%);
-    font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.233);
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  .image-carousel h2{
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 20px;
-    color: #ffffff;
-    text-align: center;
-    margin: 12px;
-  }
-  .left-arrow {
-    left: 0px;
-    font-size: 40px;
-    background-color: #0c24ff1a;
-    border-radius: 40%;
-  }
-  
-  .right-arrow {
-    right: 1px;
-    font-size: 40px;
-    background-color: #0c24ff1a;
-    border-radius: 40%;
-  }
-  .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+@media screen and (max-width:1020px) {
+  .desenvolvimento h1 {
+    font-size: 25px;
+    
   }
 }

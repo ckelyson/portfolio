@@ -1,0 +1,79 @@
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .interfaceFooter {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .interfaceFooter h1 {
+    font-size: 20px;
+  }
+
+  .interfaceFooter p {
+    font-size: 12px;
+  }
+  
+  .sobre {
+    margin-top: 20px;
+  }
+
+  .sobre p {
+    margin-top: 20px;
+  }
+
+  .sobre p a {
+    color: #c9d6ff;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .icon:hover {
+    color: #ff5733;
+  }
+
+  .ckelyson {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+  }
+
+  .ckelyson:hover {
+    color: #ff5733;
+  }
+
+  @media screen and (max-width: 1020px) {
+    .interfaceFooter {
+        display: flex;   
+        flex-direction: column;      
+      }
+
+      .sobre p {
+        margin-top: 15px;
+        font-size: 12px;
+        text-align: left;
+      }
+
+      .sobre h1 {
+        text-align: left;
+      }
+      
+  }

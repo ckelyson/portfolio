@@ -29,7 +29,7 @@ function MinhasEspecialidades () {
                         </p>
                     </div>
 
-                  
+
                 </div>
                 <div className={styles.flex}>
                 <div className={styles.especialidadesBox}>
@@ -41,7 +41,7 @@ function MinhasEspecialidades () {
                         Ele é um virtuose na criação de experiências de usuário que vão além do comum, tornando cada interação na web uma jornada memorável.
                         </p>
                     </div>
-                    
+
                     <div className={styles.especialidadesBox}>
                         <i class="bi bi-filetype-jsx"></i>
                         <h3>REACT JSX</h3>

@@ -7,14 +7,13 @@ function Projetos () {
             <div className={styles.interface}>
                 <h2 className={styles.titulo}>MEUS <span>PROJETOS.</span></h2>
                 <div className={styles.flex}>
-                    <div className={styles.imgProjetos}>
-                        <div className={styles.overlay}>Novidades em breve</div>
+                    <div className={styles.imgProjeto1}>
+                        <div className={styles.overlay}>
+                            <a href='https://evelynsouza.vercel.app/'>PORTFÓLIO WEB</a>
+                        </div>
                     </div>
-                    <div className={styles.imgProjetos}>
-                        <div className={styles.overlay}>Novidades em breve</div>
-                    </div>
-                    <div className={styles.imgProjetos}>
-                        <div className={styles.overlay}>Novidades em breve</div>
+                    <div className={styles.imgProjeto2}>
+                        <div className={styles.overlay}>PROJETO DE AULA</div>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import styles from './Sobre.module.css'
-import imgSobre from '../../assets/ck2.png'
 
 function Sobre () {
     return (
@@ -7,10 +6,9 @@ function Sobre () {
             <div className={styles.interface}>
                 <div className={styles.flex}>
                     <div className={styles.imgSobre}>
-                        <img src={imgSobre} className={styles.imgSobreEstilo}/>
                     </div>
                     <div className={styles.txtSobre}>
-                        <h2>MUITO PRAZER, <span>SOU CKELYSON MOURA.</span> </h2>
+                        <h2>MUITO PRAZER<span></span> </h2>
                         <p>
                             Tenho 20 anos de idade e tenho dedicado minha vida em busca do conhecimento e da excelência no campo da tecnologia.
                             Atualmente cursando Engenharia de Software, venho construindo uma base sólida e impressionante em minha carreira.
@@ -28,11 +26,6 @@ function Sobre () {
                             e estruturas de dados. Essa perspectiva holística me diferencia e me capacita a abordar os desafios
                             tecnológicos de maneira abrangente.
                         </p>
-                            <div className={styles.btnSocial}>
-                                <a href='https://instagram.com/mouraa_ckelyson?igshid=MzRlODBiNWFlZA=='><button><i class="bi bi-instagram"></i></button></a>
-                                <a href='http://tiktok.com/@dev_ckelyson'><button><i class="bi bi-tiktok"></i></button></a>
-                                <a href='https://www.linkedin.com/in/ckelyson-moura-frontend'><button><i class="bi bi-linkedin"></i></button></a>
-                            </div>
                     </div>
                 </div>
             </div>
