@@ -97,6 +97,7 @@ section.projetos {
 @media screen and (max-width: 1020px) {
     .flex {
         flex-direction: column;
+        justify-content: center;
         gap: 60px;
     }
     section.projetos {
